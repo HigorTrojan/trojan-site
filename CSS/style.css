@@ -138,7 +138,7 @@ position:absolute;
 
 inset:0;
 
-background-image:url("../img/hero-bg.png");
+background-image:url("https://i.ibb.co/DfKxWkVx/Chat-GPT-Image-21-de-jun-de-2026-16-59-33.png");
 
 background-position:center center;
 background-size:cover;
@@ -573,7 +573,7 @@ justify-content:center;
 .about-image img{
 
 width:100%;
-max-width:320px;
+max-width:360px;
 
 transform:scaleX(-1);
 
@@ -1479,25 +1479,45 @@ content:"";
 
 position:absolute;
 
-width:650px;
-height:650px;
+width:700px;
+height:700px;
 
 border-radius:50%;
 
 background:
 radial-gradient(
 circle,
-rgba(255,0,0,.45) 0%,
-rgba(255,0,0,.25) 35%,
-rgba(255,0,0,.10) 55%,
-transparent 75%
+rgba(255,0,0,.85) 0%,
+rgba(255,0,0,.55) 18%,
+rgba(255,0,0,.25) 40%,
+rgba(255,0,0,.08) 60%,
+transparent 78%
 );
 
-filter:blur(15px);
+filter:blur(12px);
 
 z-index:1;
 
+}
+
 animation:pulseGlow 5s ease-in-out infinite;
+.hero-right::after{
+
+content:"";
+
+position:absolute;
+
+width:880px;
+height:880px;
+
+border-radius:50%;
+
+border:1px solid rgba(255,0,0,.18);
+
+box-shadow:
+0 0 40px rgba(255,0,0,.15);
+
+z-index:0;
 
 }
 
@@ -1551,29 +1571,15 @@ border:1px solid rgba(255,0,0,.18);
 
 .trojan-main{
 
-width:620px;
+width:760px;
 
 position:relative;
 
 z-index:10;
 
-animation:floatTrojan 6s ease-in-out infinite;
-
-}
-
-@keyframes floatTrojan{
-
-0%{
-transform:translateY(0);
-}
-
-50%{
-transform:translateY(-18px);
-}
-
-100%{
-transform:translateY(0);
-}
+filter:
+drop-shadow(0 0 25px rgba(255,0,0,.8))
+drop-shadow(0 0 60px rgba(255,0,0,.4));
 
 }
 
