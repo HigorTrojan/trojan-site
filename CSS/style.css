@@ -394,16 +394,21 @@ drop-shadow(0 0 30px rgba(255,0,0,.35));
 
 .trojan-main{
 
-position:relative;
+position:absolute;
+
+right:0;
+bottom:0;
+
+width:520px;
+
+max-width:none;
 
 z-index:5;
 
-width:620px;
-
-max-width:100%;
-
 filter:
-drop-shadow(0 0 20px rgba(255,0,0,.35));
+drop-shadow(0 0 30px rgba(255,0,0,.4));
+
+}
 
 }
 
