@@ -389,30 +389,6 @@ drop-shadow(0 0 30px rgba(255,0,0,.35));
 }
 
 /* ====================================
-   PERSONAGEM
-==================================== */
-
-.trojan-main{
-
-position:absolute;
-
-right:0;
-bottom:0;
-
-width:520px;
-
-max-width:none;
-
-z-index:5;
-
-filter:
-drop-shadow(0 0 30px rgba(255,0,0,.4));
-
-}
-
-}
-
-/* ====================================
    TITULOS
 ==================================== */
 
