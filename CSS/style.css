@@ -38,7 +38,11 @@ justify-content:space-between;
 padding:80px 8%;
 overflow:hidden;
 background:
-radial-gradient(circle at center,#400000 0%,#100000 25%,#050505 80%);
+radial-gradient(circle at center,
+#7a0000 0%,
+#320000 30%,
+#0a0000 60%,
+#050505 100%);
 }
 
 .hero::before{
@@ -64,7 +68,7 @@ z-index:2;
 }
 
 .logo{
-width:130px;
+width:220px;
 margin-bottom:20px;
 filter:
 drop-shadow(0 0 10px red)
@@ -72,10 +76,11 @@ drop-shadow(0 0 20px red);
 }
 
 .hero h1{
-font-size:90px;
+font-size:120px;
 font-weight:900;
-letter-spacing:8px;
+letter-spacing:12px;
 color:#fff;
+}
 
 text-shadow:
 0 0 10px red,
@@ -99,15 +104,18 @@ gap:20px;
 
 .btn-red{
 background:#ff0000;
-color:#fff;
-padding:18px 40px;
-text-decoration:none;
-border-radius:8px;
-font-weight:700;
-transition:.4s;
+color:white;
+padding:22px 55px;
+font-size:18px;
+font-weight:800;
+border-radius:12px;
+
 box-shadow:
-0 0 15px red,
-0 0 35px red;
+0 0 20px red,
+0 0 40px red,
+0 0 80px red;
+
+transition:.4s;
 }
 
 .btn-red:hover{
@@ -128,7 +136,7 @@ background:red;
 }
 
 .hero-character{
-width:45%;
+width:55%;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -309,7 +317,9 @@ padding:120px 8%;
 }
 
 form{
-max-width:800px;
+.hero-character img{
+max-width:950px;
+width:100%;
 margin:auto;
 display:flex;
 flex-direction:column;
